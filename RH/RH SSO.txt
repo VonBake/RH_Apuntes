@@ -1,0 +1,45 @@
+https://access.redhat.com/products
+
+-Red Hat 3scale API Management
+-Red Hat AMQ
+-Red Hat AMQ Streams
+-Red Hat Ansible Automation Platform
+-Red Hat Decision Manager
+-Red Hat Directory Server
+-Red Hat Enterprise Linux **
+-Red Hat Fuse***
+-Red Hat Insights
+-Red Hat JBoss Enterprise Application Platform ****
+-Red Hat JBos EAP
+-Red Hat OpenShift Container Platform ***
+-Red Hat OpenShift Data Foundation
+-Red Hat OpenShift API Management
+-Red Hat Satellite
+-Red Hat Single Sign-On ****
+-Red Hat OpenShift API Management
+-Red Hat Satellite
+-Red Hat Single Sign-On ****
+
+
+
+///////////////////////////////////////////
+Red Hat Single Sign-On
+Red Hat JBoss Enterprise Application Platform
+Red Hat Fuse
+
+
+///***comandos ubuntul RH***/////////////////////
+Archivos .tar.gz:
+Comprimir: tar -czvf empaquetado.tar.gz /carpeta/a/empaquetar/
+Descomprimir: tar -xzvf archivo.tar.gz
+Archivos .zip:
+Comprimir: zip archivo.zip carpeta
+Descomprimir: unzip archivo.zip
+
+
+
+------------------------------------------------------
+{"WFLYCTL0080: Servicios fallidos" => {"jboss.deployment.unit.\"pocsso.war\".undertow-deployment" => "java.lang.RuntimeException: java.lang.RuntimeException: UT010039: Unknown authentication mechanism KEYCLOAK
+    Caused by: java.lang.RuntimeException: java.lang.RuntimeException: UT010039: Unknown authentication mechanism KEYCLOAK
+    Caused by: java.lang.RuntimeException: UT010039: Unknown authentication mechanism KEYCLOAK"}}
+

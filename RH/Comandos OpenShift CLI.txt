@@ -1,0 +1,38 @@
+
+OpenShift OC CLI 
+
+Linea de comandos para crear apps y administrar proyectos en los cuales se puede :
+
+-Trabajar con código fuente del proyecto 
+-Creación de secuencias de comandos de operaciones para 
+ocp 
+-Administrar proyectos retringidos por ancho de banda 
+
+Comandos generales:
+
+$ oc action [options] \ [resource_type] [RESOURCE_NAME_OR_ID]: obtener o describir el tipo de recurso en el que se realizará la acción (servicio o nodo).
+
+$ oc get services  : ver servicios on
+
+$ oc get services  todo -o yaml: lo mismo mas a detalle
+
+TYpes 
+oc login / logout
+oc new-proyect 
+oc new-app
+oc status : mostrara el estado de todos los recursos en el actual proyecto 
+oc proyect : cambiar de proyecto / mostrar nombre de proyecto
+oc describe: atributos detallados 
+oc get/ create/edit /delete
+oc start-build / build-logs: comenzar app
+
+$oc whoami : ver mi tipo de usuario 
+
+$oc get route: ruta de https y http 
+
+$oc edit route todo-http-router (bajar al "host" y editar)
+
+/*para buscar un texto en un archivo: "esc" + /"nombre de lo buscado"*/
+
+
+
